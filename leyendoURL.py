@@ -2,7 +2,7 @@ from contextlib import closing
 from http.client import HTTPConnection
 from sys import stderr
 import sys
-import timeit
+from timeit import timeit
 from tkinter.ttk import Separator
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
